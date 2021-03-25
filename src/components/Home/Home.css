@@ -1,0 +1,6 @@
+.Home {
+    float: left;
+    background-color: lightpink;
+    min-width: 45%;
+    max-width: 1000px;
+}

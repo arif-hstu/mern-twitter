@@ -1,0 +1,19 @@
+.LeftSideBar {
+    width: 25%;
+    float: left;
+    background-color: linen;
+}
+
+.LeftSideBar>div {
+    height: 2rem;
+}
+
+.LeftSideBar img {
+    float: left;
+    height:  2rem;
+    padding-right: 10px;
+}
+
+.LeftSideBar h3 {
+    line-height: 2rem;
+}

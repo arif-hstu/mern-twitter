@@ -1,0 +1,16 @@
+.Header {
+    background-color: lightblue; /*......................*/
+    height: 5rem;
+}
+
+.Header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
