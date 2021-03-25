@@ -3,10 +3,13 @@ import React from 'react';
 // import styleSheet
 import './Home.css'
 
+// import components
+import CreatePost from '../CreatePost/CreatePost'
+
 const Home = () => {
     return (
         <div className='Home'>
-            <h2>This is home</h2>
+            <div><CreatePost /></div>
         </div>
     );
 };

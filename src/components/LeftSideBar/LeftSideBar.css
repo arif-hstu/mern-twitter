@@ -1,7 +1,11 @@
 .LeftSideBar {
-    width: 25%;
+    min-width: 25%;
     float: left;
-    background-color: linen;
+    /* background-color: linen; */
+    /* applied GRID layout */
+    grid-area: LeftSideBar;
+    /* styling for grid*/
+    border-top: 1px solid #ebeef0;
 }
 
 .LeftSideBar>div {
@@ -10,7 +14,7 @@
 
 .LeftSideBar img {
     float: left;
-    height:  2rem;
+    height: 2rem;
     padding-right: 10px;
 }
 

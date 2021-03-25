@@ -1,6 +1,27 @@
 .Home {
     float: left;
-    background-color: lightpink;
+    /* background-color: lightpink; */
     min-width: 45%;
     max-width: 1000px;
+
+    /* Applying GRID layout */
+    grid-area: Home;
+    /* styling for grid*/
+    border-top: 1px solid #ebeef0;
+    border-left: 1px solid #ebeef0;
+    border-right: 1px solid #ebeef0;
+
+    /* general styling */
+    padding: 10px;
+    position: relative;
+}
+
+.Home > div:first-of-type::after {
+    content: '';
+    border-bottom: 8px solid #ebeef0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: auto;
+    z-index: 1;
 }

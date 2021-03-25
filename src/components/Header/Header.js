@@ -1,16 +1,17 @@
 import React from 'react';
 
+import twitterLogo from '../../images/twitter.png'
 // import styleSheet
 import './Header.css'
+
 
 const Header = () => {
     return (
         <div className="Header">
             <nav>
                 <ul>
-                    <li>Twitter</li>
-                    <li>Home</li>
-                    <li>Icon</li>
+                    <li><img src={twitterLogo} alt='logo'></img></li>
+                    <li><span>Home</span><span>Icon</span></li>
                     <li>search</li>
                 </ul>
             </nav>

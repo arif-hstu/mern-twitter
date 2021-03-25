@@ -1,5 +1,11 @@
 .RightSideBar {
-    background-color:lightgreen;
+    /* background-color: lightgreen; */
     float: right;
-    width: 30%;
+    min-width: 30%;
+
+    /* applying GRID layout */
+    grid-area: RightSideBar;
+    grid-column: 3/4;
+    /* styling for grid*/
+    border-top: 1px solid #ebeef0;
 }

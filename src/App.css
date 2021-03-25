@@ -1,2 +1,11 @@
 .App {
+    /* applying GRID Layout */
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 1fr 30%;
+    /* grid-template-columns: auto auto auto; */
+    grid-template-rows: 4rem 1fr;
+    grid-template-areas:
+    'Header Header Header'
+    'LeftSideBar Home RightSideBar';
 }

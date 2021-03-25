@@ -1,11 +1,46 @@
 .Header {
-    background-color: lightblue; /*......................*/
-    height: 5rem;
+    /* background-color: lightblue; */
+    /*......................*/
+    /* applying GRID Layout */
+    grid-area: Header;
+    
+    /* styling for grid*/
+    border-top: 1px solid #ebeef0;
 }
 
 .Header nav ul {
     display: flex;
     justify-content: space-between;
+
+    /* applying Child GRID layout */
+    display: grid;
+    grid-template-columns: 25% 1fr 30%;
+    grid-template-areas:
+        'twitter home search';
+}
+
+.Header nav ul li:first-child>img {
+    height: 4rem;
+}
+
+.Header nav ul li {
+    line-height: 4rem;
+}
+
+.Header nav ul>li:first-child {
+    grid-area: twitter;
+}
+
+.Header nav ul>li:nth-child(2) {
+    grid-area: home;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #ebeef0;
+    border-right: 1px solid #ebeef0;
+}
+
+.Header nav ul>li:last-child {
+    grid-area: search;
 }
 
 .Header ul {
@@ -13,4 +48,3 @@
     padding: 0;
     margin: 0;
 }
-
