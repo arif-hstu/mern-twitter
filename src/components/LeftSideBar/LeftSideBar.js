@@ -33,7 +33,14 @@ const LeftSideBar = () => {
                 <img src={home} alt="Lists"/>
                 <h3>Lists</h3>
             </div>
-
+            <div>
+                <img src={home} alt="Profile"/>
+                <h3>Profile</h3>
+            </div>
+            <div>
+                <img src={home} alt="More"/>
+                <h3>More</h3>
+            </div>
         </div>
     );
 };
