@@ -6,7 +6,7 @@ import './RightSideBar.css'
 const RightSideBar = () => {
     return (
         <div className='RightSideBar'>
-            <h3>This is rightside bar</h3>
+            <h3>Trends for you</h3>
         </div>
     );
 };
